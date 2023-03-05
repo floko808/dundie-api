@@ -1,6 +1,6 @@
 [default]
 
 [default.db]
-uri = ""
+uri = "" # vem da ENV - docker-compose.yaml
 connect_args = {check_same_thread=false}
 echo = false
